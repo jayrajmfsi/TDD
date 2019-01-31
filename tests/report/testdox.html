@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="Tests\AppBundle\Controller\DefaultControllerTest">AppBundle\Controller\DefaultController</h2>
+        <ul>
+            <li style="color: #555753;">✓ Enclosures are shown on homepage</li>
+            <li style="color: #555753;">✓ That there is an alarm button without security</li>
+            <li style="color: #555753;">✓ It grows a dinosaur from specification</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Entity\DinosaurTest">AppBundle\Entity\Dinosaur</h2>
+        <ul>
+            <li style="color: #555753;">✓ Setting length</li>
+            <li style="color: #555753;">✓ Dinosaur not shrunk</li>
+            <li style="color: #555753;">✓ Returns full specification of dinosaur</li>
+            <li style="color: #555753;">✓ Returns full specification for tyrannosaurus</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Entity\EnclosureTest">AppBundle\Entity\Enclosure</h2>
+        <ul>
+            <li style="color: #555753;">✓ It has no dinosaurs by default</li>
+            <li style="color: #555753;">✓ It adds dinosaurs</li>
+            <li style="color: #555753;">✓ It does not allow carnivorous dinos to mix with herbivores</li>
+            <li style="color: #555753;">✓ It does not allow to add non carnivorous dinosaurs to carnivorous enclosure</li>
+            <li style="color: #555753;">✓ It does not allow to add dinos to unsecure enclosures</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Factory\DinosaurFactoryTest">AppBundle\Factory\DinosaurFactory</h2>
+        <ul>
+            <li style="color: #555753;">✓ It grows a large velociraptor</li>
+            <li style="color: #555753;">✓ It grows a dinosaur from specification with data set #0</li>
+            <li style="color: #555753;">✓ It grows a dinosaur from specification with data set "default response"</li>
+            <li style="color: #555753;">✓ It grows a dinosaur from specification with data set #1</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Service\DinosaurLengthDeterminatorTest">AppBundle\Service\DinosaurLengthDeterminator</h2>
+        <ul>
+            <li style="color: #555753;">✓ It returns correct length range with data set #0</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set "default response"</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #1</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #2</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #3</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #4</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #5</li>
+            <li style="color: #555753;">✓ It returns correct length range with data set #6</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Service\EnclosureBuilderServiceIntegrationTest">AppBundle\Service\EnclosureBuilderServiceIntegration</h2>
+        <ul>
+            <li style="color: #555753;">✓ It builds enclosure with default specifications</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Service\EnclosureBuilderServiceProphecyTest">AppBundle\Service\EnclosureBuilderServiceProphecy</h2>
+        <ul>
+            <li style="color: #555753;">✓ It builds and persists enclosure</li>
+        </ul>
+        <h2 id="Tests\AppBundle\Service\EnclosureBuilderServiceTest">AppBundle\Service\EnclosureBuilderService</h2>
+        <ul>
+            <li style="color: #555753;">✓ It builds and persists enclosure</li>
+        </ul>
+    </body>
+</html>
